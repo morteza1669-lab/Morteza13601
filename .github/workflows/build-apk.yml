@@ -25,7 +25,7 @@ jobs:
           gradle-version: "8.9"
 
       - name: Extract project
-        run: unzip -q ElectroCalc_V5_CloudBuild.zip
+        run: unzip -q ElectroCalc_V5_CloudBuild_FIXED.zip
 
       - name: Build APK
         run: |
